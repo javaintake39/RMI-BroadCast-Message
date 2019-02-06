@@ -40,11 +40,11 @@ public class Controller extends Application {
 
     }
 
-    @Override
-    public void stop() 
-    {
-        serverService.unregister(clientService);
-    }
+   // @Override
+   // public void stop() 
+   // {
+    //    serverService.unregister(clientService);
+    //}
 
     public static void main(String[] args) {
         launch(args);
