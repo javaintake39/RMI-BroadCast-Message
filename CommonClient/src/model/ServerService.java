@@ -36,7 +36,7 @@ public class ServerService {
     }
       public void unregister(ClientInterface clientService) {
         try {
-            serverRefrence.register(clientService);
+            serverRefrence.unregister(clientService);
         } catch (RemoteException ex) {
             ex.printStackTrace();
         }
